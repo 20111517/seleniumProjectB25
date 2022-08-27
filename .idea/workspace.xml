@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="fİRST SELENİUM PROJECT">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +36,21 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.T2_Googlesearch">
-    <configuration name="T1_CydeoVerifications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_Locator.T1_CydeoVerifications" />
+}</component>
+  <component name="RunManager" selected="Application.T5_PRACTİCE">
+    <configuration name="GetText_getAtributes_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_Locator.GetText_getAtributes_Practice" />
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_Googlesearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_Locator.T2_Googlesearch" />
+    <configuration name="T4_LibraryLoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_Locator.T4_LibraryLoginPage" />
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -79,12 +75,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task01_YahooVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_01SeleniumIntro.Task01_YahooVerification" />
+    <configuration name="T4_cssSelector_getText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03_cssSelector_xpath.T4_cssSelector_getText" />
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_01SeleniumIntro.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day03_cssSelector_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T5_PRACTİCE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03_cssSelector_xpath.T5_PRACTİCE" />
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day03_cssSelector_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day2_Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_Locator.day2_Homework1" />
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_Locator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,9 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T2_Googlesearch" />
-        <item itemvalue="Application.T1_CydeoVerifications" />
-        <item itemvalue="Application.Task01_YahooVerification" />
+        <item itemvalue="Application.T5_PRACTİCE" />
+        <item itemvalue="Application.day2_Homework1" />
+        <item itemvalue="Application.GetText_getAtributes_Practice" />
+        <item itemvalue="Application.T4_LibraryLoginPage" />
+        <item itemvalue="Application.T4_cssSelector_getText" />
       </list>
     </recent_temporary>
   </component>
@@ -114,8 +138,21 @@
       <workItem from="1660918431856" duration="5519000" />
       <workItem from="1660993601824" duration="6761000" />
       <workItem from="1661081726733" duration="1164000" />
-      <workItem from="1661083692961" duration="8763000" />
+      <workItem from="1661083692961" duration="10985000" />
+      <workItem from="1661236706137" duration="6519000" />
+      <workItem from="1661348872265" duration="14904000" />
+      <workItem from="1661414377856" duration="10778000" />
+      <workItem from="1661588171406" duration="3691000" />
+      <workItem from="1661608278674" duration="97000" />
     </task>
+    <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
+      <created>1661100204326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661100204326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +169,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fİRST SELENİUM PROJECT" />
+    <option name="LAST_COMMIT_MESSAGE" value="fİRST SELENİUM PROJECT" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -143,6 +184,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day03_cssSelector_xpath/T3_getAttribute_cssSelector.java</url>
+          <line>9</line>
+          <properties class="com.cydeo.tests.day03_cssSelector_xpath.T3_getAttribute_cssSelector" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
