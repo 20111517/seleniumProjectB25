@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Radio button Exercises">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T1_xpath_cssSelectors_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T1_xpath_cssSelectors_Practice.java" afterDir="false" />
-    </list>
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Xpath practice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +147,7 @@
       <workItem from="1661789581855" duration="1111000" />
       <workItem from="1661841741211" duration="3342000" />
       <workItem from="1661847369243" duration="7041000" />
-      <workItem from="1661957772675" duration="969000" />
+      <workItem from="1661957772675" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -194,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661889075670</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Xpath practice">
+      <created>1661959095018</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661959095018</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +221,8 @@
     <MESSAGE value="writing code added" />
     <MESSAGE value="Stale Element Referance Exceptions" />
     <MESSAGE value="Radio button Exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Radio button Exercises" />
+    <MESSAGE value="Xpath practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Xpath practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
