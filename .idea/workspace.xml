@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="writing code added">
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Radio button Exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day03_cssSelector_xpath/anything.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day03_cssSelector_xpath/anything.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T1_xpath_cssSelectors_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T1_xpath_cssSelectors_Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.T2_RadioButton">
+  <component name="RunManager" selected="Application.T3_XPATHPRACTİCE">
     <configuration name="T1_StaleElementRefEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.T1_StaleElementRefEx" />
       <module name="seleniumProjectB25" />
@@ -70,6 +69,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3_XPATHPRACTİCE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.T3_XPATHPRACTİCE" />
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day2_Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_Locator.day2_Homework1" />
-      <module name="seleniumProjectB25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day02_Locator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T3_XPATHPRACTİCE" />
         <item itemvalue="Application.T2_RadioButton" />
         <item itemvalue="Application.T1_StaleElementRefEx" />
         <item itemvalue="Application.anything" />
         <item itemvalue="Application.T5_PRACTİCE" />
-        <item itemvalue="Application.day2_Homework1" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +149,8 @@
       <workItem from="1661760661244" duration="4968000" />
       <workItem from="1661789581855" duration="1111000" />
       <workItem from="1661841741211" duration="3342000" />
-      <workItem from="1661847369243" duration="6827000" />
+      <workItem from="1661847369243" duration="7041000" />
+      <workItem from="1661957772675" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -180,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661761227142</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stale Element Referance Exceptions">
+      <created>1661889019657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661889019657</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Radio button Exercises">
+      <created>1661889075670</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661889075670</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +215,9 @@
     <MESSAGE value="fİRST SELENİUM PROJECT" />
     <MESSAGE value="writing code" />
     <MESSAGE value="writing code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="writing code added" />
+    <MESSAGE value="Stale Element Referance Exceptions" />
+    <MESSAGE value="Radio button Exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Radio button Exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -223,6 +239,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T3_XPATHPRACTİCE.java</url>
+          <line>11</line>
+          <properties class="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.T3_XPATHPRACTİCE" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
