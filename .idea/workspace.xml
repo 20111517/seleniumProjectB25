@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="xpath pract'ce">
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="StaleElementReferanceException with refreshing the page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T5_CheckBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T5_CheckBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T6_StaleElementsReferanceExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T6_StaleElementsReferanceExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day5_TestNG_INtro_Dropdowns/T1_StaleElementRefEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day5_TestNG_INtro_Dropdowns/T1_StaleElementRefEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +51,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.T5_CheckBoxes">
-    <configuration name="T1_StaleElementRefEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.T1_StaleElementRefEx" />
+  <component name="RunManager" selected="TestNG.TestNg_Intro">
+    <configuration name="RadioBtntask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.RadioBtntask" />
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_RadioButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.T2_RadioButton" />
+    <configuration name="T4_simpleDropdowns" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -72,56 +73,74 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.T4_simpleDropdowns" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_XPATHPRACTİCE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.T3_XPATHPRACTİCE" />
+    <configuration name="T4_simpleDropdowns.simpleDropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.*" />
+          <option name="PATTERN" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.T4_simpleDropdowns" />
+      <option name="METHOD_NAME" value="simpleDropdownTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_FindsElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.T4_FindsElements" />
+    <configuration name="TestNG_Selenium" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.*" />
+          <option name="PATTERN" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.TestNG_Selenium" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T5_CheckBoxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.T5_CheckBoxes" />
+    <configuration name="TestNg_Intro" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.*" />
+          <option name="PATTERN" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.TestNg_Intro" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T5_CheckBoxes" />
-        <item itemvalue="Application.T4_FindsElements" />
-        <item itemvalue="Application.T3_XPATHPRACTİCE" />
-        <item itemvalue="Application.T2_RadioButton" />
-        <item itemvalue="Application.T1_StaleElementRefEx" />
+        <item itemvalue="TestNG.TestNg_Intro" />
+        <item itemvalue="TestNG.T4_simpleDropdowns" />
+        <item itemvalue="Application.RadioBtntask" />
+        <item itemvalue="TestNG.TestNG_Selenium" />
+        <item itemvalue="TestNG.T4_simpleDropdowns.simpleDropdownTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +169,13 @@
       <workItem from="1661789581855" duration="1111000" />
       <workItem from="1661841741211" duration="3342000" />
       <workItem from="1661847369243" duration="7041000" />
-      <workItem from="1661957772675" duration="5038000" />
+      <workItem from="1661957772675" duration="7588000" />
+      <workItem from="1661970217574" duration="2249000" />
+      <workItem from="1662020737523" duration="3204000" />
+      <workItem from="1662123721050" duration="4927000" />
+      <workItem from="1662132412774" duration="5000000" />
+      <workItem from="1662209257074" duration="5887000" />
+      <workItem from="1662363247261" duration="5073000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -222,7 +247,35 @@
       <option name="project" value="LOCAL" />
       <updated>1661960699996</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Checkbox verifications">
+      <created>1661965213569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661965213569</updated>
+    </task>
+    <task id="LOCAL-00012" summary="utility for radio buttons.">
+      <created>1662132611565</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662132611565</updated>
+    </task>
+    <task id="LOCAL-00013" summary="radio button selection.">
+      <created>1662132696905</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662132696905</updated>
+    </task>
+    <task id="LOCAL-00014" summary="StaleElementReferanceException with refreshing the page.">
+      <created>1662132818127</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662132818127</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +301,11 @@
     <MESSAGE value="Xpath practice" />
     <MESSAGE value="f'ndelements method" />
     <MESSAGE value="xpath pract'ce" />
-    <option name="LAST_COMMIT_MESSAGE" value="xpath pract'ce" />
+    <MESSAGE value="Checkbox verifications" />
+    <MESSAGE value="utility for radio buttons." />
+    <MESSAGE value="radio button selection." />
+    <MESSAGE value="StaleElementReferanceException with refreshing the page." />
+    <option name="LAST_COMMIT_MESSAGE" value="StaleElementReferanceException with refreshing the page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,6 +328,10 @@
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

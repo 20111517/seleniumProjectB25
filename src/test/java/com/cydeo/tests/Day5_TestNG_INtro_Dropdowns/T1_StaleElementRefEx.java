@@ -30,8 +30,9 @@ public class T1_StaleElementRefEx {
         //6. Verify “Delete” button is NOT displayed after clicking.
         //USE XPATH LOCATOR FOR ALL WEBELEMENT LOCATORS
         //
-        try {
-            System.out.println("DeleteBtn.isDisplayed() = " + DeleteBtn.isDisplayed());
+
+      try {
+        System.out.println("DeleteBtn.isDisplayed() = " + DeleteBtn.isDisplayed());
         } catch (StaleElementReferenceException e) {
 
             System.out.println("-->StaleElementReferenceException exception is thrown");
@@ -43,3 +44,4 @@ public class T1_StaleElementRefEx {
         }
         }
     }
+
