@@ -13,7 +13,7 @@ public class T3_XPATHPRACTİCE {
         //1. Open Chrome browser
         WebDriver driver =WebdriverFactory.getDriver("chrome");
        driver.manage().window().maximize();
-       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 
 
         //2. Go to http://practice.cydeo.com/multiple_buttons

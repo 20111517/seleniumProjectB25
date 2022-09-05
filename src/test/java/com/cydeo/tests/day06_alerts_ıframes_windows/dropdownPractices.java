@@ -4,8 +4,12 @@ import com.cydeo.utilities.WebdriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
+
 
 public class dropdownPractices {
     WebDriver driver;
@@ -13,9 +17,11 @@ public class dropdownPractices {
             public void setupMethod(){
 //1. Open Chrome browser
 //2. Go to http://practice.cybertekschool.com/dropdown
-         driver= WebdriverFactory.getDriver("chrome");
+        driver= WebdriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/dropdown");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
 
     }
     @Test
@@ -28,7 +34,10 @@ public class dropdownPractices {
         stateDropdown.selectByValue("VA");
         Thread.sleep(1000);
         stateDropdown.selectByIndex(5);
-        String expectedOption=stateDropdown.getFirstSelectedOption().getText();
+        String actualOption=stateDropdown.getFirstSelectedOption().getText();
+        System.out.println(actualOption);
+        String expectedOption="California";
+        Assert.assertEquals(actualOption,expectedOption);
         //3. Select Illinois
         //4. Select Virginia
         //5. Select California
