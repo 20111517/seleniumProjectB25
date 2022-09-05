@@ -11,13 +11,13 @@ import org.testng.annotations.Test;
 
 public class T4_simpleDropdowns {
 
-        WebDriver driver;
+        WebDriver driver;//Singleton driver
         @BeforeMethod
         public void setupMethod(){
             //TC#4: Verifying “Simple dropdown” and “State selection” dropdown
             //default values
             //1. Open Chrome browser
-            WebDriver driver = WebdriverFactory.getDriver("chrome");
+             driver = WebdriverFactory.getDriver("chrome");
             driver.manage().window().maximize();
             //2. Go to https://practice.cydeo.com/dropdown
             driver.get("https://practice.cydeo.com/dropdown");
