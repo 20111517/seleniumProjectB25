@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="StaleElementReferanceException with refreshing the page.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T6_StaleElementsReferanceExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day04_CheckBoxes_FindElements_RadioButtons/T6_StaleElementsReferanceExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day5_TestNG_INtro_Dropdowns/T1_StaleElementRefEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/Day5_TestNG_INtro_Dropdowns/T1_StaleElementRefEx.java" afterDir="false" />
-    </list>
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="dropdown practices" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +170,7 @@
       <workItem from="1662123721050" duration="4927000" />
       <workItem from="1662132412774" duration="5000000" />
       <workItem from="1662209257074" duration="5887000" />
-      <workItem from="1662363247261" duration="5073000" />
+      <workItem from="1662363247261" duration="5508000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -275,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662132818127</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="dropdown practices">
+      <created>1662391387985</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662391387985</updated>
+    </task>
+    <task id="LOCAL-00016" summary="dropdown practices">
+      <created>1662391672097</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662391672097</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +314,8 @@
     <MESSAGE value="utility for radio buttons." />
     <MESSAGE value="radio button selection." />
     <MESSAGE value="StaleElementReferanceException with refreshing the page." />
-    <option name="LAST_COMMIT_MESSAGE" value="StaleElementReferanceException with refreshing the page." />
+    <MESSAGE value="dropdown practices" />
+    <option name="LAST_COMMIT_MESSAGE" value="dropdown practices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
