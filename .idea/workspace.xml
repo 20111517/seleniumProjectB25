@@ -48,8 +48,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.IframePractice.IframeTask">
-    <configuration name="ConfirmationAlert.ConfirmationAlert (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WindowHandlePractice.WindowsHandling">
+    <configuration name="ConfirmationAlert.ConfirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_AlertPractices.ınformationAlertPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowHandlePractice.WindowsHandling" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.T1_AlertPractices" />
-      <option name="METHOD_NAME" value="ınformationAlertPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.WindowHandlePractice" />
+      <option name="METHOD_NAME" value="WindowsHandling" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WindowHandlePractice.WindowsHandling" />
         <item itemvalue="TestNG.IframePractice.IframeTask" />
         <item itemvalue="TestNG.ConfirmationAlert.JspromtAlert" />
         <item itemvalue="TestNG.ConfirmationAlert.ConfirmationAlert" />
         <item itemvalue="TestNG.ConfirmationAlert.ConfirmationAlert (1)" />
-        <item itemvalue="TestNG.T1_AlertPractices.ınformationAlertPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,7 @@
       <workItem from="1662209257074" duration="5887000" />
       <workItem from="1662363247261" duration="5508000" />
       <workItem from="1662477345852" duration="7767000" />
-      <workItem from="1662548819029" duration="7475000" />
+      <workItem from="1662548819029" duration="9673000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -331,7 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662566402738</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Alert Practices extra">
+      <created>1662568679276</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662568679276</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Alert Practices extra">
+      <created>1662568698961</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662568698961</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
