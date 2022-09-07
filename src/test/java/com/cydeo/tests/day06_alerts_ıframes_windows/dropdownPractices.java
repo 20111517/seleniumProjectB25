@@ -117,7 +117,11 @@ public class dropdownPractices {
         //3. Select all the options from multiple select dropdown.
         Select multipleDropdown=new Select(driver.findElement(By.xpath("//select[@name='Languages']")));
         List<WebElement>allOptions=multipleDropdown.getOptions();
-        System.out.println("allOptions = " + allOptions);
+        for (WebElement option : allOptions) {
+            System.out.println(option.getText());
+        }
+
+
        // multipleDropdown.deselectAll();
         //4. Print out all selected values.
         //5. Deselect all values.

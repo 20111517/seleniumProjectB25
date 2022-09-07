@@ -49,16 +49,38 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.dropdownPractices.dropdownTask08">
-    <configuration name="T3_XPATHPRACTİCE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.T3_XPATHPRACTİCE" />
+  <component name="RunManager" selected="TestNG.T1_AlertPractices.ınformationAlertPractice">
+    <configuration name="T1_AlertPractices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.Day04_CheckBoxes_FindElements_RadioButtons.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.T1_AlertPractices" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_AlertPractices.ınformationAlertPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.T1_AlertPractices" />
+      <option name="METHOD_NAME" value="ınformationAlertPractice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,24 +96,6 @@
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.dropdownPractices" />
       <option name="METHOD_NAME" value="dropdownTas06" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dropdownPractices.dropdownTask05" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectB25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.dropdownPractices" />
-      <option name="METHOD_NAME" value="dropdownTask05" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T1_AlertPractices.ınformationAlertPractice" />
         <item itemvalue="TestNG.dropdownPractices.dropdownTask08" />
+        <item itemvalue="TestNG.T1_AlertPractices" />
         <item itemvalue="TestNG.dropdownPractices.dropdownTask07" />
         <item itemvalue="TestNG.dropdownPractices.dropdownTas06" />
-        <item itemvalue="TestNG.dropdownPractices.dropdownTask05" />
-        <item itemvalue="Application.T3_XPATHPRACTİCE" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +181,8 @@
       <workItem from="1662132412774" duration="5000000" />
       <workItem from="1662209257074" duration="5887000" />
       <workItem from="1662363247261" duration="5508000" />
-      <workItem from="1662477345852" duration="5797000" />
+      <workItem from="1662477345852" duration="7767000" />
+      <workItem from="1662548819029" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -298,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662404025498</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="dropdown practices">
+      <created>1662489445155</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662489445155</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +366,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06_alerts_ıframes_windows/dropdownPractices.java</url>
-          <line>29</line>
+          <line>30</line>
           <properties class="com.cydeo.tests.day06_alerts_ıframes_windows.dropdownPractices" method="dropdownTask05">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
