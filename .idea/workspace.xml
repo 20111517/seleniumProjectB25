@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="dropdown practices">
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Alert Practices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06_alerts_ıframes_windows/dropdownPractices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06_alerts_ıframes_windows/dropdownPractices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +48,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.T1_AlertPractices.ınformationAlertPractice">
-    <configuration name="T1_AlertPractices" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ConfirmationAlert.JspromtAlert">
+    <configuration name="ConfirmationAlert.ConfirmationAlert (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +58,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.T1_AlertPractices" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.ConfirmationAlert" />
+      <option name="METHOD_NAME" value="ConfirmationAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfirmationAlert.ConfirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.ConfirmationAlert" />
+      <option name="METHOD_NAME" value="ConfirmationAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfirmationAlert.JspromtAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.ConfirmationAlert" />
+      <option name="METHOD_NAME" value="JspromtAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -78,42 +114,6 @@
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.T1_AlertPractices" />
       <option name="METHOD_NAME" value="ınformationAlertPractice" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dropdownPractices.dropdownTas06" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectB25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.dropdownPractices" />
-      <option name="METHOD_NAME" value="dropdownTas06" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dropdownPractices.dropdownTask07" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectB25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.dropdownPractices" />
-      <option name="METHOD_NAME" value="dropdownTask07" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ConfirmationAlert.JspromtAlert" />
+        <item itemvalue="TestNG.ConfirmationAlert.ConfirmationAlert" />
+        <item itemvalue="TestNG.ConfirmationAlert.ConfirmationAlert (1)" />
         <item itemvalue="TestNG.T1_AlertPractices.ınformationAlertPractice" />
         <item itemvalue="TestNG.dropdownPractices.dropdownTask08" />
-        <item itemvalue="TestNG.T1_AlertPractices" />
-        <item itemvalue="TestNG.dropdownPractices.dropdownTask07" />
-        <item itemvalue="TestNG.dropdownPractices.dropdownTas06" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,7 @@
       <workItem from="1662209257074" duration="5887000" />
       <workItem from="1662363247261" duration="5508000" />
       <workItem from="1662477345852" duration="7767000" />
-      <workItem from="1662548819029" duration="2700000" />
+      <workItem from="1662548819029" duration="5349000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662489445155</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Alert Practices">
+      <created>1662563959560</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662563959560</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +348,8 @@
     <MESSAGE value="radio button selection." />
     <MESSAGE value="StaleElementReferanceException with refreshing the page." />
     <MESSAGE value="dropdown practices" />
-    <option name="LAST_COMMIT_MESSAGE" value="dropdown practices" />
+    <MESSAGE value="Alert Practices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alert Practices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
