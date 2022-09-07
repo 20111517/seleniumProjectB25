@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Alert Practices">
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Alert Practices extra">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ConfirmationAlert.JspromtAlert">
+  <component name="RunManager" selected="TestNG.IframePractice.IframeTask">
     <configuration name="ConfirmationAlert.ConfirmationAlert (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
@@ -103,6 +103,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IframePractice.IframeTask" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.IframePractice" />
+      <option name="METHOD_NAME" value="IframeTask" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="T1_AlertPractices.ınformationAlertPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
@@ -121,31 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dropdownPractices.dropdownTask08" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectB25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.dropdownPractices" />
-      <option name="METHOD_NAME" value="dropdownTask08" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.IframePractice.IframeTask" />
         <item itemvalue="TestNG.ConfirmationAlert.JspromtAlert" />
         <item itemvalue="TestNG.ConfirmationAlert.ConfirmationAlert" />
         <item itemvalue="TestNG.ConfirmationAlert.ConfirmationAlert (1)" />
         <item itemvalue="TestNG.T1_AlertPractices.ınformationAlertPractice" />
-        <item itemvalue="TestNG.dropdownPractices.dropdownTask08" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,7 @@
       <workItem from="1662209257074" duration="5887000" />
       <workItem from="1662363247261" duration="5508000" />
       <workItem from="1662477345852" duration="7767000" />
-      <workItem from="1662548819029" duration="5349000" />
+      <workItem from="1662548819029" duration="7475000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -317,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662563959560</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Alert Practices">
+      <created>1662566345060</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662566345060</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Alert Practices extra">
+      <created>1662566402738</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662566402738</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +363,8 @@
     <MESSAGE value="StaleElementReferanceException with refreshing the page." />
     <MESSAGE value="dropdown practices" />
     <MESSAGE value="Alert Practices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alert Practices" />
+    <MESSAGE value="Alert Practices extra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alert Practices extra" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
