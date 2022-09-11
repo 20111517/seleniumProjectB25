@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Window Handle Practices extra">
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="utility method for windowHandling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07_Webtables_Utilities_JavaFaker/T3_CRM_LOGIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07_Webtables_Utilities_JavaFaker/T3_CRM_LOGIN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/T1_Webtable_Order_Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/T1_Webtable_Order_Verify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/WebtableUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/WebtableUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,31 +51,35 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.T1_WindowHandlingPractice.day7_Task1">
-    <configuration name="task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.task4" />
+  <component name="RunManager" selected="TestNG.T3_CRM_LOGIN.LoginTask">
+    <configuration name="T1_Webtable_Order_Verify" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.Day5_TestNG_INtro_Dropdowns.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day08_properties_config_reader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day08_properties_config_reader" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.T1_Webtable_Order_Verify" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IframePractice.IframeTask" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_Webtable_Order_Verify.day08Task1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day08_properties_config_reader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.IframePractice" />
-      <option name="METHOD_NAME" value="IframeTask" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day08_properties_config_reader" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.T1_Webtable_Order_Verify" />
+      <option name="METHOD_NAME" value="day08Task1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,17 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowHandlePractice.WindowsHandling" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_CRM_LOGIN.LoginTask" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06_alerts_ıframes_windows.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06_alerts_ıframes_windows.WindowHandlePractice" />
-      <option name="METHOD_NAME" value="WindowsHandling" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker.T3_CRM_LOGIN" />
+      <option name="METHOD_NAME" value="LoginTask" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T3_CRM_LOGIN.LoginTask" />
+        <item itemvalue="TestNG.T1_Webtable_Order_Verify" />
+        <item itemvalue="TestNG.T1_Webtable_Order_Verify.day08Task1" />
         <item itemvalue="TestNG.T1_WindowHandlingPractice.day7_Task1" />
         <item itemvalue="TestNG.T1_WindowHandlingPractice" />
-        <item itemvalue="Application.task4" />
-        <item itemvalue="TestNG.WindowHandlePractice.WindowsHandling" />
-        <item itemvalue="TestNG.IframePractice.IframeTask" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +188,7 @@
       <workItem from="1662627198813" duration="2698000" />
       <workItem from="1662652319729" duration="1171000" />
       <workItem from="1662813700255" duration="5647000" />
-      <workItem from="1662897502405" duration="3029000" />
+      <workItem from="1662897502405" duration="5458000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -358,7 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662899356927</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="utility method for windowHandling">
+      <created>1662900756938</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1662900756938</updated>
+    </task>
+    <task id="LOCAL-00027" summary="utility method for windowHandling">
+      <created>1662900786640</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662900786640</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +413,8 @@
     <MESSAGE value="Alert Practices" />
     <MESSAGE value="Alert Practices extra" />
     <MESSAGE value="Window Handle Practices extra" />
-    <option name="LAST_COMMIT_MESSAGE" value="Window Handle Practices extra" />
+    <MESSAGE value="utility method for windowHandling" />
+    <option name="LAST_COMMIT_MESSAGE" value="utility method for windowHandling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
