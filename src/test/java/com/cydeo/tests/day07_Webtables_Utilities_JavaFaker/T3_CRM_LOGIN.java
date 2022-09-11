@@ -1,5 +1,6 @@
 package com.cydeo.tests.day07_Webtables_Utilities_JavaFaker;
 
+import com.cydeo.utilities.BrowserUtils;
 import com.cydeo.utilities.WebdriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -31,7 +32,7 @@ driver.get("http://login1.nextbasecrm.com/");
         loginBtn.sendKeys("helpdesk1@cybertekschool.com");
 //4. Enter valid password
         WebElement passswordBtn=driver.findElement(By.xpath("//input[@name='USER_PASSWORD']"));
-        passswordBtn.sendKeys("Helpdesk2@cybertekschool.com");
+        passswordBtn.sendKeys("UserUser");
 
 //5. Click to `Log In` button
         WebElement clickBtn= driver.findElement(By.xpath("//input[@class='login-btn']"));
@@ -39,7 +40,7 @@ driver.get("http://login1.nextbasecrm.com/");
 //6. Verify title is as expected:
 //Expected: Portal
 
-
+        BrowserUtils.verifyTitle(driver,"Portal");
     }
 
 

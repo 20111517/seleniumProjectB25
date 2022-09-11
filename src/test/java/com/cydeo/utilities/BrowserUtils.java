@@ -17,7 +17,7 @@ public class BrowserUtils {
 //• Arg1: WebDriver
 //• Arg2: String expectedInUrl
 //• Arg3: String expectedTitle
-public void switchWindowAndVerify(WebDriver driver,String expectedInUrl,String expectedInTitle) {
+public static void switchWindowAndVerify(WebDriver driver,String expectedInUrl,String expectedInTitle) {
     Set<String> allWindows = driver.getWindowHandles();
     for (String each : allWindows) {
         driver.switchTo().window(each);
@@ -31,7 +31,7 @@ public void switchWindowAndVerify(WebDriver driver,String expectedInUrl,String e
 
 
 }
-public void verifyTitle(WebDriver driver,String expectedTitle){
+public static void verifyTitle(WebDriver driver,String expectedTitle){
     String actualTitle= driver.getTitle();
     Assert.assertEquals(actualTitle,expectedTitle);
 }
