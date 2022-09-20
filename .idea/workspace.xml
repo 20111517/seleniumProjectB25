@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="utility method Login UserName and Password">
+    <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Webtable exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/WebtableUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/WebtableUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/LaerningProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/LaerningProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/T4_config_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/T4_config_Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/readingProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/readingProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/ConfigurationReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +54,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.getTableGetName.day08_task3">
-    <configuration name="T1_Webtable_Order_Verify" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SingletonPractice">
+    <configuration name="SingletonPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day08_properties_config_reader.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day08_properties_config_reader" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.T1_Webtable_Order_Verify" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.SingletonPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -67,7 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_Webtable_Order_Verify.day08Task1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonPractice.understand_sngleton_test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.SingletonPractice" />
+      <option name="METHOD_NAME" value="understand_sngleton_test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T4_config_Practice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -76,52 +99,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day08_properties_config_reader" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.T1_Webtable_Order_Verify" />
-      <option name="METHOD_NAME" value="day08Task1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.T4_config_Practice" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_WindowHandlingPractice.day7_Task1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectB25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker.T1_WindowHandlingPractice" />
-      <option name="METHOD_NAME" value="day7_Task1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_CRM_LOGIN.LoginTask" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectB25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day07_Webtables_Utilities_JavaFaker.T3_CRM_LOGIN" />
-      <option name="METHOD_NAME" value="LoginTask" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="getTableGetName.day08_task3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T4_config_Practice.google_search_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +116,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day08_properties_config_reader" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.getTableGetName" />
-      <option name="METHOD_NAME" value="day08_task3" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.T4_config_Practice" />
+      <option name="METHOD_NAME" value="google_search_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javafakerPractice.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectB25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.javafakerPractice" />
+      <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.getTableGetName.day08_task3" />
-        <item itemvalue="TestNG.T3_CRM_LOGIN.LoginTask" />
-        <item itemvalue="TestNG.T1_Webtable_Order_Verify" />
-        <item itemvalue="TestNG.T1_Webtable_Order_Verify.day08Task1" />
-        <item itemvalue="TestNG.T1_WindowHandlingPractice.day7_Task1" />
+        <item itemvalue="TestNG.SingletonPractice" />
+        <item itemvalue="TestNG.SingletonPractice.understand_sngleton_test1" />
+        <item itemvalue="TestNG.T4_config_Practice.google_search_test" />
+        <item itemvalue="TestNG.T4_config_Practice" />
+        <item itemvalue="TestNG.javafakerPractice.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +191,11 @@
       <workItem from="1662627198813" duration="2698000" />
       <workItem from="1662652319729" duration="1171000" />
       <workItem from="1662813700255" duration="5647000" />
-      <workItem from="1662897502405" duration="11963000" />
+      <workItem from="1662897502405" duration="15720000" />
+      <workItem from="1663230308370" duration="842000" />
+      <workItem from="1663329809599" duration="11014000" />
+      <workItem from="1663437826230" duration="4062000" />
+      <workItem from="1663678092435" duration="6389000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -392,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662904433177</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Webtable exercises">
+      <created>1662910481071</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1662910481071</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Webtable exercises">
+      <created>1662910492319</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662910492319</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +450,8 @@
     <MESSAGE value="Window Handle Practices extra" />
     <MESSAGE value="utility method for windowHandling" />
     <MESSAGE value="utility method Login UserName and Password" />
-    <option name="LAST_COMMIT_MESSAGE" value="utility method Login UserName and Password" />
+    <MESSAGE value="Webtable exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Webtable exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
