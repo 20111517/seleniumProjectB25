@@ -42,4 +42,13 @@ public class Driver {
         return driver;
     }
 
+    //this method will make sure our driver always null after using quit() method.
+    public static void closeDriver() {
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
+
+
+    }
 }
