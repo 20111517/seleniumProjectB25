@@ -7,7 +7,14 @@ import java.util.Set;
 
 public class BrowserUtils {
 
+    public static void sleep(int seconds) {
+        seconds *= 1000;
+        try {
+            Thread.sleep(seconds);
+        } catch (InterruptedException e) {
+        }
 
+    }
 //1. Create a new class called BrowserUtils
 //2. Create a method to make Task1 logic re-usable
 //3. When method is called, it should switch window and verify title.

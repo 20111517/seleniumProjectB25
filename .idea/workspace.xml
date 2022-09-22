@@ -7,11 +7,7 @@
     <list default="true" id="b7211e1a-c992-436c-a15f-c10dcbd32f6b" name="Changes" comment="Webtable exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/LaerningProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/LaerningProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/T4_config_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/T4_config_Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/readingProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08_properties_config_reader/readingProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +50,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SingletonPractice">
-    <configuration name="SingletonPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Circle_Drag_and_drop">
+    <configuration name="Circle_Drag_and_drop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day_11Actions_jsexecuter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.SingletonPractice" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day_11Actions_jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day_11Actions_jsexecuter.Circle_Drag_and_drop" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -72,17 +68,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonPractice.understand_sngleton_test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_RegistrationForm.registartion_form" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.SingletonPractice" />
-      <option name="METHOD_NAME" value="understand_sngleton_test1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter.T1_RegistrationForm" />
+      <option name="METHOD_NAME" value="registartion_form" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,16 +86,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_config_Practice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_uploadPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day08_properties_config_reader.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day08_properties_config_reader" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.T4_config_Practice" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter.T2_uploadPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,17 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_config_Practice.google_search_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_uploadPractice.Upload_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day08_properties_config_reader.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day08_properties_config_reader" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day08_properties_config_reader.T4_config_Practice" />
-      <option name="METHOD_NAME" value="google_search_test" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter.T2_uploadPractice" />
+      <option name="METHOD_NAME" value="Upload_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,18 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javafakerPractice.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_Actions_Hover" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectB25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09_javaFaker_testbase_DriverUtil.javafakerPractice" />
-      <option name="METHOD_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day_10_upload_actions_Jsexecuter.T3_Actions_Hover" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SingletonPractice" />
-        <item itemvalue="TestNG.SingletonPractice.understand_sngleton_test1" />
-        <item itemvalue="TestNG.T4_config_Practice.google_search_test" />
-        <item itemvalue="TestNG.T4_config_Practice" />
-        <item itemvalue="TestNG.javafakerPractice.Test1" />
+        <item itemvalue="TestNG.Circle_Drag_and_drop" />
+        <item itemvalue="TestNG.T3_Actions_Hover" />
+        <item itemvalue="TestNG.T2_uploadPractice.Upload_test" />
+        <item itemvalue="TestNG.T2_uploadPractice" />
+        <item itemvalue="TestNG.T1_RegistrationForm.registartion_form" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +190,8 @@
       <workItem from="1663230308370" duration="842000" />
       <workItem from="1663329809599" duration="11014000" />
       <workItem from="1663437826230" duration="4062000" />
-      <workItem from="1663678092435" duration="6389000" />
+      <workItem from="1663678092435" duration="15260000" />
+      <workItem from="1663834031811" duration="10434000" />
     </task>
     <task id="LOCAL-00001" summary="fİRST SELENİUM PROJECT">
       <created>1661100204326</created>
@@ -414,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662910492319</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Webtable exercises">
+      <created>1663687803848</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1663687803848</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,6 +490,11 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day_10_upload_actions_Jsexecuter/T6_JavaScriptexecuterText.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
